@@ -9,7 +9,22 @@
 ~h
 # Command Line History (newest to oldest):
 :x
+:X
 :q
+:q!
+:help Command-T
+:t
+:Helptags
+::Helptags
+:Gread
+:Gb
+:Gcommit
+:Gsplit
+:Gstatus
+:Gedit
+:helptags ~/.vim/bundle/nerdtree/doc/
+:help NERD_tree.txt
+:help
 :x!
 
 # Search String History (newest to oldest):
@@ -22,174 +37,162 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
-	filetype indent on
-"2	LINE	0
+""0	CHAR	0
+	'
+"1	LINE	0
+	autocmd vimenter * NERDTree
+"2	CHAR	0
 	execute pathogen#infect()
+	syntax on
+	filetype plugin indent on
+	
+	filetype indent on
+	
+	
 "3	LINE	0
-	filetype indent on
-"4	LINE	0
 	execute pathogen#infect()
+"4	LINE	0
+	
+	""""""""""""""""""""""""" Pathogen """"""""""""""""""""""""""
+"5	CHAR	0
+	execute pathogen#infect()
+	syntax on
+	filetype plugin indent on
+	
+	filetype indent on
+	
+	
+"6	LINE	0
+	""""""""""""""""""""""""" Pathogen """"""""""""""""""""""""""
+	" * Plugin manager
+"7	LINE	0
+	filetype indent on
+"8	LINE	0
+	execute pathogen#infect()
+"9	LINE	0
+	filetype indent on
 "-	CHAR	0
-	!
+	'
 
 # global variables:
 
 # File marks:
-'0  1  0  ~/.vim/bundle/.vimrc
-'1  1  0  ~/.vimrc
-'2  4  0  ~/.vimrc
-'3  9  0  ~/.vimrc
-'4  10  25  ~/.vimrc
-'5  8  42  ~/.vimrc
-'6  4  10  ~/.gitignore
-'7  1  0  ~/.gitignore
-'8  4  10  ~/.gitignore
-'9  4  16  ~/.gitignore
+'0  4  0  ~/NERD_tree_1
+'1  24  0  ~/NERD_tree_1
+'2  44  0  ~/NERD_tree_1
+'3  4  0  ~/Workspace/simba/NERD_tree_1
+'4  1  0  ~/.vimrc
+'5  49  0  ~/Workspace/simba/NERD_tree_1
+'6  76  0  ~/Workspace/simba/NERD_tree_1
+'7  80  0  ~/Workspace/simba/NERD_tree_1
+'8  127  0  ~/Workspace/simba/NERD_tree_1
+'9  146  2  ~/Workspace/simba/NERD_tree_1
 
 # Jumplist (newest first):
--'  1  0  ~/.vim/bundle/.vimrc
--'  1  0  ~/.vimrc
--'  4  0  ~/.vimrc
--'  9  0  ~/.vimrc
--'  10  25  ~/.vimrc
--'  8  42  ~/.vimrc
--'  4  10  ~/.gitignore
+-'  4  0  ~/NERD_tree_1
+-'  21  2  ~/NERD_tree_1
+-'  1  0  ~/NERD_tree_1
 -'  1  0  ~/.gitignore
--'  19  0  ~/.vimrc
--'  1  0  ~/crontest.txt
--'  18  0  ~/Workspace/simba/.gitignore
--'  1  0  ~/Workspace/simba/.gitignore
--'  1  0  ~/.vim/.gitignore
--'  1  0  ~/Workspace/simba/.vimrc
--'  58  0  ~/Workspace/simba/Gemfile
+-'  24  0  ~/NERD_tree_1
+-'  41  2  ~/NERD_tree_1
+-'  1  0  ~/.vimrc
+-'  44  0  ~/NERD_tree_1
+-'  61  2  ~/NERD_tree_1
+-'  4  0  ~/Workspace/simba/NERD_tree_1
+-'  24  2  ~/Workspace/simba/NERD_tree_1
+-'  1  0  ~/Workspace/simba/NERD_tree_1
+-'  49  0  ~/Workspace/simba/NERD_tree_1
+-'  70  2  ~/Workspace/simba/NERD_tree_1
+-'  76  0  ~/Workspace/simba/NERD_tree_1
+-'  80  0  ~/Workspace/simba/NERD_tree_1
+-'  116  2  ~/Workspace/simba/NERD_tree_1
+-'  127  0  ~/Workspace/simba/NERD_tree_1
+-'  138  2  ~/Workspace/simba/NERD_tree_1
+-'  146  2  ~/Workspace/simba/NERD_tree_1
+-'  1  0  ~/Workspace/simba/README.md
+-'  81  0  ~/NERD_tree_1
+-'  92  0  ~/NERD_tree_1
+-'  101  2  ~/NERD_tree_1
+-'  3  0  ~/Workspace/volgly/mix.exs
+-'  1  0  ~/Workspace/volgly/mix.exs
+-'  4  0  ~/.vim/bundle/NERD_tree_1
+-'  5  0  ~/.vim/bundle/NERD_tree_1
+-'  1  0  ~/.vim/bundle/NERD_tree_1
 -'  1  0  ~/Workspace/simba/Gemfile
--'  3  7  ~/.gitignore
--'  2  6  ~/.gitignore
--'  23  17  ~/teste
--'  1  0  ~/teste
--'  1  0  ~/test
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/test
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/test
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/test
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  23  17  ~/teste
--'  1  0  ~/teste
--'  1  0  ~/test
--'  12  28  ~/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  5  2  ~/.gitignore
+-'  108  0  ~/NERD_tree_1
+-'  202  2  ~/NERD_tree_1
+-'  1  0  ~/Workspace/simba/Gemfile
+-'  141  2  ~/Workspace/simba/NERD_tree_1
+-'  1  0  ~/Workspace/simba/README.md
+-'  3  0  ~/Workspace/volgly/mix.exs
+-'  1  0  ~/Workspace/volgly/mix.exs
+-'  4  0  ~/.vim/bundle/NERD_tree_1
+-'  5  0  ~/.vim/bundle/NERD_tree_1
+-'  1  0  ~/.vim/bundle/NERD_tree_1
+-'  1  0  ~/Workspace/simba/Gemfile
+-'  1  0  ~/Workspace/simba/Gemfile
+-'  88  0  ~/Workspace/simba/NERD_tree_1
+-'  99  2  ~/Workspace/simba/NERD_tree_1
+-'  107  2  ~/Workspace/simba/NERD_tree_1
+-'  1  0  ~/Workspace/simba/README.md
+-'  3  0  ~/Workspace/volgly/mix.exs
+-'  1  0  ~/Workspace/volgly/mix.exs
+-'  4  0  ~/.vim/bundle/NERD_tree_1
+-'  5  0  ~/.vim/bundle/NERD_tree_1
+-'  1  0  ~/.vim/bundle/NERD_tree_1
+-'  1  0  ~/Workspace/simba/Gemfile
+-'  1  0  ~/Workspace/simba/Gemfile
+-'  102  2  ~/Workspace/simba/NERD_tree_1
+-'  1  0  ~/Workspace/simba/README.md
+-'  3  0  ~/Workspace/volgly/mix.exs
+-'  1  0  ~/Workspace/volgly/mix.exs
+-'  4  0  ~/.vim/bundle/NERD_tree_1
+-'  5  0  ~/.vim/bundle/NERD_tree_1
+-'  1  0  ~/.vim/bundle/NERD_tree_1
+-'  1  0  ~/Workspace/simba/Gemfile
+-'  1  0  ~/Workspace/simba/Gemfile
+-'  93  2  ~/Workspace/simba/NERD_tree_1
+-'  104  0  ~/Workspace/simba/NERD_tree_1
+-'  115  2  ~/Workspace/simba/NERD_tree_1
+-'  123  2  ~/Workspace/simba/NERD_tree_1
+-'  1  0  ~/Workspace/simba/README.md
+-'  3  0  ~/Workspace/volgly/mix.exs
+-'  1  0  ~/Workspace/volgly/mix.exs
+-'  4  0  ~/.vim/bundle/NERD_tree_1
+-'  5  0  ~/.vim/bundle/NERD_tree_1
+-'  1  0  ~/.vim/bundle/NERD_tree_1
+-'  1  0  ~/Workspace/simba/Gemfile
+-'  1  0  ~/Workspace/simba/Gemfile
+-'  118  2  ~/Workspace/simba/NERD_tree_1
+-'  1  0  ~/Workspace/simba/README.md
+-'  4  0  ~/Workspace/simba/NERD_tree_1
+-'  24  2  ~/Workspace/simba/NERD_tree_1
+-'  1  0  ~/Workspace/simba/NERD_tree_1
+-'  49  0  ~/Workspace/simba/NERD_tree_1
+-'  70  2  ~/Workspace/simba/NERD_tree_1
+-'  76  0  ~/Workspace/simba/NERD_tree_1
+-'  80  0  ~/Workspace/simba/NERD_tree_1
+-'  116  2  ~/Workspace/simba/NERD_tree_1
+-'  127  0  ~/Workspace/simba/NERD_tree_1
+-'  138  2  ~/Workspace/simba/NERD_tree_1
+-'  146  2  ~/Workspace/simba/NERD_tree_1
+-'  1  0  ~/Workspace/simba/README.md
+-'  72  0  ~/NERD_tree_1
+-'  3  0  ~/Workspace/volgly/mix.exs
+-'  1  0  ~/Workspace/volgly/mix.exs
+-'  4  0  ~/.vim/bundle/NERD_tree_1
+-'  5  0  ~/.vim/bundle/NERD_tree_1
+-'  1  0  ~/.vimrc
 
 # History of marks within files (newest to oldest):
 
-> ~/.vim/bundle/.vimrc
-	"	1	0
-
-> ~/.vimrc
-	"	1	0
-	^	4	0
-	.	3	25
-	+	1	33
-	+	19	29
-	+	1	34
-	+	20	24
-	+	8	18
-	+	1	86
-	+	8	18
-	+	10	25
-	+	20	0
-	+	8	18
-	+	8	18
-	+	10	25
-	+	10	25
-	+	8	45
-	+	11	0
-	+	1	25
-	+	1	0
-	+	1	0
-	+	1	25
-	+	8	18
-	+	1	0
-	+	2	0
-	+	2	18
-	+	8	18
-	+	2	9
-	+	3	25
-
 > ~/.gitignore
-	"	4	10
-	^	4	11
-	.	5	0
+	"	5	6
+	^	5	7
+	.	5	6
 	+	2	7
 	+	3	9
-	+	5	0
+	+	6	0
 	+	4	10
 	+	4	12
 	+	2	0
@@ -197,15 +200,459 @@
 	+	4	11
 	+	4	17
 	+	4	17
-	+	5	0
+	+	6	0
 	+	4	11
 	+	4	11
 	+	1	0
 	+	4	11
-	+	5	0
+	+	6	0
+	+	5	6
+
+> ~/NERD_tree_1
+	"	4	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/.vimrc
+	"	15	10
+	^	40	102
+	.	40	100
+	+	3	33
+	+	20	29
+	+	3	34
+	+	43	24
+	+	3	18
+	+	3	86
+	+	3	18
+	+	4	25
+	+	43	0
+	+	3	18
+	+	3	18
+	+	4	25
+	+	4	25
+	+	3	45
+	+	12	0
+	+	3	25
+	+	3	0
+	+	3	0
+	+	3	25
+	+	3	18
+	+	3	0
+	+	3	0
+	+	3	18
+	+	3	18
+	+	3	9
+	+	3	25
+	+	33	26
+	+	3	0
+	+	3	0
+	+	4	0
+	+	3	0
+	+	33	0
+	+	34	27
+	+	3	0
+	+	1	0
+	+	11	0
+	+	1	0
+	+	1	0
+	+	2	0
+	+	4	0
+	+	10	0
+	+	33	0
+	+	35	21
+	+	36	34
+	+	37	0
+	+	3	2
+	+	37	9
+	+	11	54
+	+	23	27
+	+	32	30
+	+	41	29
+	+	42	100
+	+	22	9
+	+	39	29
+	+	40	100
+
+> ~/ControlP
+	"	2	0
+	.	2	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	46	0
+	+	37	0
+	+	28	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	11	0
+	+	2	0
+
+> ~/Desktop/teste
+	"	1	0
 
 > ~/crontest.txt
 	"	1	0
+	^	3	22
+	.	3	21
+	+	1	0
+	+	3	21
+
+> ~/dumpupdate.sql
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/teste
+	"	1	0
+	^	23	18
+	.	23	17
+	+	23	17
+
+> ~/mysql
+	"	1	0
+
+> ~/Desktop/mobile.csv
+	"	1	0
+
+> ~/Desktop/erros404.csv
+	"	1	0
+
+> ~/Workspace/simba/NERD_tree_1
+	"	4	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Workspace/simba/README.md
+	"	2	0
+	^	2	1
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/Workspace/volgly/mix.exs
+	"	3	0
+
+> ~/Workspace/volgly/NERD_tree_1
+	"	10	8
+	.	1	0
+	+	1	0
+
+> ~/.vim/bundle/NERD_tree_1
+	"	4	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/.vim/bundle/NERD_tree_2
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Workspace/simba/Gemfile
+	"	1	0
+	.	58	0
+	+	60	0
+	+	58	0
+
+> fugitive:///home/isaac/Workspace/simba/.git//0/Gemfile
+	"	7	21
+
+> ~/Workspace/simba/.git/index
+	"	1	0
+
+> ~/dumpcategory.sql
+	"	33	0
+
+> ~/examples.desktop
+	"	90	0
+
+> ~/NERD_tree_2
+	"	5	0
+	.	1	0
+	+	1	0
+
+> ~/NERD_tree_3
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.vim/bundle/.vimrc
+	"	1	0
+
+> /usr/share/vim/vim74/doc/help.txt
+	"	82	19
 
 > ~/Workspace/simba/.gitignore
 	"	18	0
@@ -215,18 +662,6 @@
 
 > ~/Workspace/simba/.vimrc
 	"	1	0
-
-> ~/Workspace/simba/Gemfile
-	"	58	0
-	.	58	0
-	+	60	0
-	+	58	0
-
-> ~/teste
-	"	23	17
-	^	23	18
-	.	23	17
-	+	23	17
 
 > ~/test
 	"	1	0
