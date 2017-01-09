@@ -13,6 +13,7 @@
 :x!
 
 # Search String History (newest to oldest):
+?/i
 
 # Expression History (newest to oldest):
 
@@ -21,43 +22,45 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
+"1	LINE	0
 	filetype indent on
 "2	LINE	0
 	execute pathogen#infect()
-"-	CHAR	0
-	l
+""-	CHAR	0
+	!
 
 # File marks:
-'0  6  6  ~/.gitignore
-'1  1  0  ~/.vim/.gitignore
-'2  5  10  ~/.gitignore
-'3  6  0  ~/.vimrc
-'4  1  0  ~/Workspace/simba/.vimrc
-'5  58  0  ~/Workspace/simba/Gemfile
-'6  4  7  ~/.gitignore
-'7  3  6  ~/.gitignore
-'8  8  25  ~/.vimrc
-'9  23  17  ~/teste
+'0  4  10  ~/.gitignore
+'1  1  0  ~/.gitignore
+'2  4  10  ~/.gitignore
+'3  4  16  ~/.gitignore
+'4  4  12  ~/.gitignore
+'5  17  0  ~/.vimrc
+'6  1  0  ~/crontest.txt
+'7  18  0  ~/Workspace/simba/.gitignore
+'8  1  0  ~/.vim/.gitignore
+'9  4  10  ~/.gitignore
 
 # Jumplist (newest first):
--'  6  6  ~/.gitignore
+-'  4  10  ~/.gitignore
 -'  1  0  ~/.gitignore
--'  1  0  ~/.vim/.gitignore
--'  5  10  ~/.gitignore
--'  6  0  ~/.vimrc
+-'  17  0  ~/.vimrc
 -'  1  0  ~/.vimrc
+-'  1  0  ~/crontest.txt
+-'  18  0  ~/Workspace/simba/.gitignore
+-'  1  0  ~/Workspace/simba/.gitignore
+-'  1  0  ~/.vim/.gitignore
+-'  6  0  ~/.vimrc
 -'  1  0  ~/Workspace/simba/.vimrc
 -'  58  0  ~/Workspace/simba/Gemfile
 -'  1  0  ~/Workspace/simba/Gemfile
--'  4  7  ~/.gitignore
--'  3  6  ~/.gitignore
+-'  3  7  ~/.gitignore
+-'  2  6  ~/.gitignore
 -'  8  25  ~/.vimrc
 -'  2  0  ~/.vimrc
 -'  23  17  ~/teste
 -'  1  0  ~/teste
 -'  1  0  ~/test
--'  17  28  ~/.vimrc
 -'  1  0  ~/visy/.vimrc
 -'  1  0  ~/visy/.vimrc
 -'  1  0  ~/visy/.vimrc
@@ -134,28 +137,33 @@
 -'  1  0  ~/visy/.vimrc
 -'  1  0  ~/visy/.vimrc
 -'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
+-'  5  2  ~/.gitignore
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	"	6	6
-	^	6	7
-	.	6	6
-	+	3	7
-	+	4	9
-	+	7	0
-	+	5	10
-	+	6	6
-
-> ~/.vim/.gitignore
-	"	1	0
+	"	4	10
+	^	4	11
+	.	5	0
+	+	2	7
+	+	3	9
+	+	5	0
+	+	4	10
+	+	4	12
+	+	2	0
+	+	4	16
+	+	4	11
+	+	4	17
+	+	4	17
+	+	5	0
+	+	4	11
+	+	4	11
+	+	1	0
+	+	4	11
+	+	5	0
 
 > ~/.vimrc
-	"	6	0
+	"	17	0
 	^	6	1
 	.	6	1
 	+	2	8
@@ -178,6 +186,15 @@
 	+	1	0
 	+	2	0
 	+	6	1
+
+> ~/crontest.txt
+	"	1	0
+
+> ~/Workspace/simba/.gitignore
+	"	18	0
+
+> ~/.vim/.gitignore
+	"	1	0
 
 > ~/Workspace/simba/.vimrc
 	"	1	0
