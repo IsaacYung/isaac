@@ -1,9 +1,11 @@
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+
 filetype indent on
 
 """"""""""""""""""""""""" Pathogen """"""""""""""""""""""""""
 " * Plugin manager
-
-"execute pathogen#infect() "Execute the plugin manager"
 
 """"""""""""""""""""""""" 
 set ai
