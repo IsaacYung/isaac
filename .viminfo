@@ -29,20 +29,22 @@
 	l
 
 # File marks:
-'0  5  10  ~/.gitignore
-'1  6  0  ~/.vimrc
-'2  1  0  ~/Workspace/simba/.vimrc
-'3  58  0  ~/Workspace/simba/Gemfile
-'4  4  7  ~/.gitignore
-'5  3  6  ~/.gitignore
-'6  8  25  ~/.vimrc
-'7  23  17  ~/teste
-'8  2  9  ~/.vimrc
-'9  1  0  ~/test
+'0  6  6  ~/.gitignore
+'1  1  0  ~/.vim/.gitignore
+'2  5  10  ~/.gitignore
+'3  6  0  ~/.vimrc
+'4  1  0  ~/Workspace/simba/.vimrc
+'5  58  0  ~/Workspace/simba/Gemfile
+'6  4  7  ~/.gitignore
+'7  3  6  ~/.gitignore
+'8  8  25  ~/.vimrc
+'9  23  17  ~/teste
 
 # Jumplist (newest first):
--'  5  10  ~/.gitignore
+-'  6  6  ~/.gitignore
 -'  1  0  ~/.gitignore
+-'  1  0  ~/.vim/.gitignore
+-'  5  10  ~/.gitignore
 -'  6  0  ~/.vimrc
 -'  1  0  ~/.vimrc
 -'  1  0  ~/Workspace/simba/.vimrc
@@ -136,20 +138,21 @@
 -'  1  0  ~/visy/.vimrc
 -'  1  0  ~/visy/.vimrc
 -'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	"	5	10
-	^	5	11
-	.	5	10
+	"	6	6
+	^	6	7
+	.	6	6
 	+	3	7
 	+	4	9
-	+	6	0
+	+	7	0
 	+	5	10
+	+	6	6
+
+> ~/.vim/.gitignore
+	"	1	0
 
 > ~/.vimrc
 	"	6	0
