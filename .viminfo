@@ -8,9 +8,9 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:x!
 :x
 :q
+:x!
 
 # Search String History (newest to oldest):
 
@@ -29,18 +29,26 @@
 	l
 
 # File marks:
-'0  4  7  ~/.gitignore
-'1  3  6  ~/.gitignore
-'2  8  25  ~/.vimrc
-'3  23  17  ~/teste
-'4  2  9  ~/.vimrc
-'5  1  0  ~/test
-'6  17  28  ~/.vimrc
-'7  1  0  ~/visy/.vimrc
+'0  5  10  ~/.gitignore
+'1  6  0  ~/.vimrc
+'2  1  0  ~/Workspace/simba/.vimrc
+'3  58  0  ~/Workspace/simba/Gemfile
+'4  4  7  ~/.gitignore
+'5  3  6  ~/.gitignore
+'6  8  25  ~/.vimrc
+'7  23  17  ~/teste
+'8  2  9  ~/.vimrc
+'9  1  0  ~/test
 
 # Jumplist (newest first):
--'  4  7  ~/.gitignore
+-'  5  10  ~/.gitignore
 -'  1  0  ~/.gitignore
+-'  6  0  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  1  0  ~/Workspace/simba/.vimrc
+-'  58  0  ~/Workspace/simba/Gemfile
+-'  1  0  ~/Workspace/simba/Gemfile
+-'  4  7  ~/.gitignore
 -'  3  6  ~/.gitignore
 -'  8  25  ~/.vimrc
 -'  2  0  ~/.vimrc
@@ -117,7 +125,6 @@
 -'  1  0  ~/visy/.vimrc
 -'  23  17  ~/teste
 -'  1  0  ~/teste
--'  1  9  ~/.vimrc
 -'  1  0  ~/test
 -'  10  28  ~/.vimrc
 -'  1  0  ~/visy/.vimrc
@@ -132,26 +139,22 @@
 -'  1  0  ~/visy/.vimrc
 -'  1  0  ~/visy/.vimrc
 -'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/visy/.vimrc
--'  1  0  ~/test
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	"	4	7
-	^	4	9
-	.	5	0
+	"	5	10
+	^	5	11
+	.	5	10
 	+	3	7
 	+	4	9
-	+	5	0
+	+	6	0
+	+	5	10
 
 > ~/.vimrc
-	"	8	25
-	^	8	26
-	.	2	0
+	"	6	0
+	^	6	1
+	.	6	1
 	+	2	8
 	+	17	29
 	+	2	9
@@ -171,6 +174,16 @@
 	+	1	0
 	+	1	0
 	+	2	0
+	+	6	1
+
+> ~/Workspace/simba/.vimrc
+	"	1	0
+
+> ~/Workspace/simba/Gemfile
+	"	58	0
+	.	58	0
+	+	60	0
+	+	58	0
 
 > ~/teste
 	"	23	17

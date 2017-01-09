@@ -3,7 +3,7 @@ filetype indent on
 """"""""""""""""""""""""" Pathogen """"""""""""""""""""""""""
 " * Plugin manager
 
-execute pathogen#infect() "Execute the plugin manager"
+"execute pathogen#infect() "Execute the plugin manager"
 
 """"""""""""""""""""""""" 
 set ai
